@@ -35,30 +35,6 @@ Mix mythologies (Norse, Greek, Egyptian, Celtic, Chinese, etc.)
 Implement dynamic events and hidden interactions per floor
 
 Repository Structure
-Planet900/
-│
-├── README.md
-├── LICENSE_CODE.txt        (engine license)
-├── LICENSE_ASSETS.txt      (art + lore license)
-├── CERTIFICATE_OF_CREATION.md
-│
-├── docs/
-│   ├── WorldBible/
-│   │   ├── 001_NinefoldCrown.md
-│   │   ├── 002_Niflheim.md
-│   │   ├── 003_EpicEvents.md
-│   │   └── ...
-│   ├── EngineBlueprint/
-│   │   ├── Architecture.md
-│   │   ├── DataModel.md
-│   │   ├── EventSystem.md
-│   │   ├── AnimationPipeline.md
-│   │   └── ...
-│   └── ProjectRoadmap.md
-│
-├── editor/                 (future browser-based pixel editor)
-│
-└── viewer/                 (public interactive floor viewer)
 
 
 Current Status
