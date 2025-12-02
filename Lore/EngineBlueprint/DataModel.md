@@ -109,3 +109,30 @@ Events are the core behavior units.
   ]
 }
 ```
+## 6. Trigger Types:
+
+onClick – player clicks a hotspot
+
+onTimer – event fires after a delay or interval
+
+onSequence – a specific order of interactions
+
+onRealmState – something happens depending on broader conditions
+
+onEpicEvent – triggered by an epic cross-realm event
+
+
+
+## 7. Action Types (Examples)
+
+showText – show a lore box / whisper
+
+playVideoSegment – temporarily change animation or seek a video
+
+spawnEntity – add a creature or object
+
+despawnEntity – remove something
+
+modifyFloorState – toggle flags (e.g., “ice_cracked = true”)
+
+openPortal – enable traversal to another floor
