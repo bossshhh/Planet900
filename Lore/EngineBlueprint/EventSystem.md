@@ -1,6 +1,3 @@
-
----
-
 ### `EventSystem.md`
 
 ```markdown
@@ -81,12 +78,12 @@ Examples:
   "type": "onEpicEvent",
   "epicEventId": "epic_primordial_wakes"
 }
-
+```
 ---
 
 ## 4. Actions
 Examples: 
-``jsonc
+```jsonc
 {
   "type": "showText",
   "textId": "lore_spirit_whisper_1"
@@ -109,12 +106,12 @@ Examples:
   "toFloorId": "niflheim_thousand_foot_glacier",
   "portalId": "rift_1"
 }
-
+```
 ---
 
 ## 5. Stateful vs Stateless Events
 
-``markdown
+```markdown
 #Stateless:
 Can always fire when triggered (good for small ambient events).
 
@@ -134,11 +131,11 @@ Fire once and never again
 Fire periodically
 
 Unlock or lock subsequent events
-
+```
 ---
 
 ## 6. Integration with Epic Events
-``markdown
+```markdown
 Epic events (like The Midgard Convergence) are represented as:
 
 High-level state flags
@@ -154,3 +151,4 @@ The event system should support:
 Global event state (per realm or globally)
 
 Subscriptions to epic event status
+```
