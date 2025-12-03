@@ -51,3 +51,70 @@ ffmpeg -framerate 12 -i animName_%03d.png \
   -profile:v high -crf 18 \
   -g 10 -keyint_min 10 \
   animName.mp4
+
+```markdown
+Notes:
+
+-framerate 12 → 12 FPS
+
+-g 10 -keyint_min 10 → keyframe every 10 frames (for sync)
+
+-crf 18 → good quality/size balance, tweak as needed
+
+
+---
+## 4.Placing Animations in Floors
+
+```jsonc
+{
+  "id": "mist_vent_1",
+  "src": "assets/floors/niflheim/origin/mist_vent_1.mp4",
+  "x": 1200,
+  "y": 300,
+  "width": 128,
+  "height": 128,
+  "loop": true
+}
+```markdown
+The viewer:
+
+Creates <video> elements for each entry
+
+Positions them absolutely over the background
+
+Ensures they all start together
+
+## 5.Syncing Animations
+
+Because MP4 playback can drift slightly between elements, sync is maintained by:
+
+Using a fixed loop duration (5 seconds)
+
+Using regular keyframes every 10 frames
+
+Periodically (e.g., every 5 seconds) resetting all videos to currentTime = 0
+to realign them at loop boundaries
+
+## 6.Future Editor Integration
+
+The long-term goal:
+
+The editor can:
+
+Draw on <canvas>
+
+Manage layers
+
+Scrub through frames
+
+Preview loops
+
+Export PNG sequences and a metadata file
+
+The build pipeline:
+
+Automatically encodes animations
+
+Updates floor JSON with correct paths and sizes
+This pipeline allows Planet900 to scale to many floors and realms while keeping
+file sizes manageable and animation authoring efficient.
