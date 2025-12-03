@@ -1,0 +1,40 @@
+
+---
+
+## 🗂️ `.gitignore`
+
+At repo root, create `.gitignore`:
+
+```gitignore
+# OS junk
+.DS_Store
+Thumbs.db
+
+# Node / web tooling (if used later)
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-lock.yaml
+package-lock.json
+
+# Build outputs
+dist/
+build/
+out/
+
+# Editor settings
+.vscode/
+.idea/
+*.swp
+
+# Logs
+*.log
+
+# Temporary files
+tmp/
+temp/
+
+# Python / tooling (if ever used)
+__pycache__/
+*.pyc
