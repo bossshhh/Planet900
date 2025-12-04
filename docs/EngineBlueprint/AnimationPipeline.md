@@ -15,7 +15,7 @@ Planet900 uses a Floor796-style animation system:
 
 ## 1. Animation Specs
 
-- Duration: **5 seconds** per loop
+- Duration: **3-5 for small reoccurring loops, 5-10 for medium event loops, & 20+ seconds for big events ** per loop
 - Framerate: **12 FPS**
 - Frames per animation: **60**
 - Style: pixel art (raster)
@@ -66,6 +66,7 @@ Notes:
 ## 4.Placing Animations in Floors
 
 ```jsonc
+(as an initial thought)
 {
   "id": "mist_vent_1",
   "src": "assets/floors/niflheim/origin/mist_vent_1.mp4",
@@ -76,6 +77,7 @@ Notes:
   "loop": true
 }
 ```markdown
+
 The viewer:
 
 Creates <video> elements for each entry
