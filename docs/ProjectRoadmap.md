@@ -1,6 +1,6 @@
 # Planet900 – Project Roadmap
 
-This document outlines the development plan for Planet900: a Floor796-style,
+This document outlines the development plan for Planet900:
 browser-based interactive pixel-art multiverse.
 
 The roadmap is organized into phases. Each phase should produce something
@@ -27,12 +27,12 @@ Chamber scene.
 
 ---
 
-## Phase 2 – Looping Animation Tiles (Floor796-Style)
+## Phase 2 – Looping Animation Tiles
 
-**Goal:** Add real animated loops like Floor796.
+**Goal:** Add real animated loops.
 
 **Deliverables:**
-- A few hand-made 5-second, 12 FPS animations (60 frames each)
+- A few hand-made loops that are from 3 - 60 seconds long, 12 FPS animations (60 frames each)
 - A simple ffmpeg script/command to convert PNG frames → MP4 loops
 - A viewer page that:
   - Places multiple `<video>` elements over the background
