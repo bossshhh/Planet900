@@ -54,10 +54,10 @@ Contributions should:
 ---
 
 ## 4. Art / Animation Contributions
-
-1. Stick to the core specs:
+Planet900 Uses a Multi-Length Animation System:
+1. the core specs:
    - Pixel art
-   - 5-second loops
+   - 3-5 seconds for small loops, 5-10 seconds for medium loops, & 20+ seconds for long event loops
    - 12 FPS (60 frames)
 2. Provide:
    - PNG frame sequences
