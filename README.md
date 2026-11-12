@@ -14,7 +14,7 @@ It consists of:
 - 9 realms
 - 9 epic events
 - 9 anchor beings
-- 900 total Floors
+- 90 total Floors
 - 900 memory shards
 - 900th iteration of existence
   
